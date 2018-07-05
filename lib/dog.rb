@@ -5,11 +5,11 @@ class Dog
     @@all << self
   end
 
-def self.all
-end
+  def self.all
+  end
 
-def self.clear_all
-  @@all.clear
-end
+  def self.clear_all
+    @@all.clear
+  end
 
-end 
+end
